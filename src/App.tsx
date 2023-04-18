@@ -1,18 +1,8 @@
 import "./App.scss";
-import { CounterApp } from "./components/CounterApp";
-import { FirstApp } from "./components/FirstApp";
+import { GifExpertApp } from "./pages/GifExpertApp";
 
 function App() {
-  return (
-    <>
-      <CounterApp />
-      <FirstApp
-        title="Hello World"
-        subtitle="This is a subtitle"
-        name="Manuel"
-      />
-    </>
-  );
+  return <GifExpertApp />;
 }
 
 export default App;
